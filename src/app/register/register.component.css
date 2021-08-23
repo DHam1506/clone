@@ -1,0 +1,46 @@
+mat-card{
+  width:460px;
+  margin-left:36%;
+  height:40rem;
+  border-radius: 10px;
+}
+ img{
+  width:300px;
+  height:100px;
+  margin-left:42%;
+}
+.container h3{
+  font-size: 28px;
+  margin-left:80px;
+}
+.container p{
+  font-size: 15px;
+  margin-left: 140px;
+}
+.container mat-card form input:nth-child(1){
+  width:200px;
+}
+.container mat-card form input:nth-child(2){
+  width:427px;
+}
+.container mat-card h4{
+  font-size: 12px;
+}
+.container mat-card button{
+  width:193px;
+
+  margin-left: 123px;
+  font-family: "Arial Narrow", serif;
+}
+.container mat-card form input .col{
+  ]width:200px
+}
+mat-icon{
+  font-size:15px;
+}
+label{
+  font-size: 13px;
+}
+.container mat-card form row{
+
+}

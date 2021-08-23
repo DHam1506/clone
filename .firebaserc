@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "clone-a2a98": {
+      "hosting": {
+        "clone": [
+          "clone-a2a98"
+        ]
+      }
+    }
+  }
+}

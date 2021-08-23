@@ -1,0 +1,50 @@
+<br>
+<img src="assets/Facebook-Logo.wine.svg" alt="logo">
+<br>
+<br>
+<div class="container">
+  <mat-card>
+    <h3> Create an Account</h3>
+    <p>Quick and easy.</p>
+    <form #form="ngForm">
+      <div class="row">
+        <input class="col form-control" type="text" placeholder="Name">
+        <br>
+        <input class="col form-control" type="text" placeholder="Surname">
+      </div>
+      <br>
+        <input class="form-control" type="text"  placeholder="Mobile phone or email address " name="email" ngModel>
+      <br>
+        <input class="form-control" type="text"  placeholder="New Password" name="avatar" ngModel>
+      <br>
+      <div class="row">
+      <label>Date of birth<mat-icon>help_outline</mat-icon></label>
+      <mat-form-field>
+        <input  class="col" matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"> </mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+
+        <mat-form-field>
+        <input  class="col" matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"> </mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+
+        <mat-form-field>
+        <input  class="col" matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"> </mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+
+      </div>
+
+      <label>Floor<mat-icon>help_outline</mat-icon></label>
+
+      <h4>By clicking the Register button, you agree to the Terms ,
+        Data Policy and Cookie Policy .
+        You can receive SMS notifications from us, and you can unsubscribe from them at any time.</h4>
+      <button type="submit" class="btn btn-success" [mat-dialog-close] >registration</button>
+    </form>
+  </mat-card>
+  </div>

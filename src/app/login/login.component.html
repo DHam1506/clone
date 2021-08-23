@@ -1,0 +1,19 @@
+<div class="container">
+  <img src="assets/Facebook-Logo.wine.svg" alt="logo">
+    <h2>Facebook helps you connect and share with the people in your life</h2>
+    <mat-card class="login-card">
+      <mat-card-content>
+        <form #form="ngForm" class="login-form" (ngSubmit)="login(form)">
+          <input class="form-control" type="text" name="email" ngModel placeholder="Email address or phone number" required>
+          <input  class="form-control" type="password" name="password" ngModel placeholder="Password is required" required>
+          <button class="btn btn-primary" (click)="openRegister()">Login</button>
+          <a class="text text-primary" href="#">Forgot?</a>
+         <hr class="hr">
+          <button type="submit" class="btn btn-success" [disabled]="form.invalid||form.pending">Create new account</button>
+
+        </form>
+
+
+      </mat-card-content>
+    </mat-card>
+  </div>
