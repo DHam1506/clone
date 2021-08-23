@@ -22,7 +22,25 @@
     <div class="home-header-right">
       <div>
         <img src="" alt="" mat-card-avatar>
+        <span class="name">MY Name</span>
+      </div>
+      <div>
+        <mat-icon>add</mat-icon>
+      </div>
+      <div>
+        <mat-icon matBadge="4"
+                  matBadgeColor="primary" matBadgeOvelap="false" matBadgePosition="above after"></mat-icon>
+      </div>
+      <div>
+        <mat-icon matBadge="3" matBadgeColor="warn" matBadgeOverlap="false" matBadgePosition="above after">
+          notifications</mat-icon>
       </div>
     </div>
+    <mat-icon [matMenuTriggerFor]="menu" >expand_more</mat-icon>
+    <mat-menu>
+      <button mat-menu-item>
+        <mat-icon>exit_to_app</mat-icon>
+      </button>
+    </mat-menu>
   </div>
 </div>

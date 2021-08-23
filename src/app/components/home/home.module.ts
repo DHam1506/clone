@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import {HomeComponent} from "./home.component";
 import {MatIconModule} from "@angular/material/icon";
 import {MaterialModule} from "../../shared/material.module";
+import {MatBadgeModule} from "@angular/material/badge";
+import {MatMenuModule} from "@angular/material/menu";
 
 
 
@@ -13,7 +15,9 @@ import {MaterialModule} from "../../shared/material.module";
   imports: [
     CommonModule,
     MatIconModule,
-    MaterialModule
+    MaterialModule,
+    MatBadgeModule,
+    MatMenuModule
   ]
 })
 export class HomeModule { }
